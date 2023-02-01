@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Px to rem converter</title>
+</head>
+<body>
+    <main class="container">
+        <div class="container__px input-container">
+            <input type="number" id="px-input" aria-label="Insert px value">
+            <span>px</span>
+        </div>
+        <button type="button" id="convert">Convert</button>
+        <div class="container__rem input-container">
+            <input type="number" id="rem-input" aria-label="Insert rem value">
+            <span>rem</span>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="save">save</button>
+        <ul class="value-list">
+            <li><span>16 px = 1 rem</span> <button type="button" class="delete">❌</button></li>
+            <li><span>24 px = 1.5 rem</span> <button type="button" class="delete">❌</button></li>
+        </ul>
+    </footer>
+</body>
+</html>
