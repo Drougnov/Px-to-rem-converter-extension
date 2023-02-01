@@ -1,0 +1,11 @@
+{
+    "name": "PX to REM converter",
+    "version": "1.0.0",
+    "description": "This is an extension to look up concerts coming to Toronto",
+    "manifest_version": 3,
+    "author": "Rocky Barua",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "PX to REM converter"
+    }
+}
