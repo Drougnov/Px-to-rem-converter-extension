@@ -1,0 +1,28 @@
+main{
+    max-width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 65px 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+.input-container{
+    position: relative;
+}
+.input-container input{
+    width: 100%;
+}
+.input-container span{
+    position: absolute;
+    right: 1rem;
+    top: 0;
+}
+.container__px,
+.convert .container__rem{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+.container__rem,
+.convert .container__px{
+    grid-column: 3/4;
+    grid-row: 1/-1;
+}
