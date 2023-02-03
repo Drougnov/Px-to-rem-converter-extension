@@ -1,7 +1,7 @@
 {
     "name": "PX to REM converter",
     "version": "1.0.0",
-    "description": "This is an extension to look up concerts coming to Toronto",
+    "description": "This is an extension to convert PX and REM (CSS units)",
     "manifest_version": 3,
     "author": "Rocky Barua",
     "action": {
