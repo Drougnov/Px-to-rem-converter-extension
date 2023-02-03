@@ -15,23 +15,33 @@ convert.addEventListener('click',()=>{
     main.classList.toggle('convert');
 })
 
-const valueList = document.querySelector('.value-list');
-const save = document.getElementById('save');
+const addBtn = document.querySelector("#save");
+const valueList = document.querySelector(".value-list");
 
-if (localStorage.getItem('valueList')) {
-    valueList.innerHTML = localStorage.getItem('valueList');
+let savedList = JSON.parse(localStorage.getItem("values")) || [];
+
+function renderValues() {
+    valueList.innerHTML = "";
+    savedList.forEach((value, index) => {
+        const li = document.createElement("li");
+        li.innerHTML = value + '<button class="delete-btn">❌</button>';
+        valueList.appendChild(li);
+
+        const deleteBtn = li.querySelector(".delete-btn");
+        deleteBtn.addEventListener("click", () => {
+            savedList.splice(index, 1);
+            localStorage.setItem("values", JSON.stringify(savedList));
+            renderValues();
+        });
+    });
 }
+renderValues();
 
-save.addEventListener('click',()=>{
-    if(pxInput.value != 0 || pxInput.value != ''){
-        valueList.innerHTML += `<li><span>${pxInput.value} px = ${remInput.value} rem</span> <button type="button" class="delete">❌</button></li>`
-    
-        const deleteButtons = document.querySelectorAll('.delete');
-        deleteButtons.forEach((button)=>{
-            button.addEventListener('click',(e)=>{
-                e.target.parentNode.remove();
-            })
-        })
-        localStorage.setItem('valueList', valueList.innerHTML);
-    }
-})
+addBtn.addEventListener("click", () => {
+    if (pxInput.value === "" || pxInput.value === 0) return;
+    savedList.push(`${pxInput.value} px = ${remInput.value} rem`);
+    localStorage.setItem("values", JSON.stringify(savedList));
+    pxInput.value = "";
+    remInput.value = "";
+    renderValues();
+});
