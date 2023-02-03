@@ -4,6 +4,7 @@ main{
     grid-template-columns: 1fr 65px 1fr;
     grid-template-rows: 1fr;
     gap: 1rem;
+    margin-bottom: .5rem;
 }
 .input-container{
     position: relative;
@@ -25,4 +26,19 @@ main{
 .convert .container__px{
     grid-column: 3/4;
     grid-row: 1/-1;
+}
+footer{
+    max-width: 350px;
+}
+footer .value-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    gap: .5rem;
+}
+.delete-btn{
+    margin-left: .5rem;
+    padding: 0;
+    cursor: pointer;
 }
