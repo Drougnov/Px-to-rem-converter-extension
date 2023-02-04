@@ -1,5 +1,5 @@
 main{
-    max-width: 350px;
+    width: 350px;
     display: grid;
     grid-template-columns: 1fr 65px 1fr;
     grid-template-rows: 1fr;
@@ -28,7 +28,7 @@ main{
     grid-row: 1/-1;
 }
 footer{
-    max-width: 350px;
+    width: 350px;
 }
 footer .value-list{
     list-style-type: none;
