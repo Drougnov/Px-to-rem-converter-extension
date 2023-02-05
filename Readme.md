@@ -31,3 +31,7 @@ The Px to Rem Converter is a simple and efficient Chrome extension that helps we
 - Frontend Mentor - [@Drougnov](https://www.frontendmentor.io/profile/Drougnov)
 - Twitter - [@itz_rocky_barua](https://twitter.com/itz_rocky_barua)
 - LinkedIn - [Rocky (Biplob) BARUA](https://www.linkedin.com/in/rockybarua)
+
+## License
+
+The Px to Rem Converter Chrome Extension is licensed under the MIT License.
