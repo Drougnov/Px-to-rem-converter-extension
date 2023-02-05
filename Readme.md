@@ -29,7 +29,11 @@ The Px to Rem Converter is a simple and efficient Chrome extension that helps we
 
 5. The Px to Rem Converter Chrome Extension is now ready to use.
 
-6. Pin the extension or add a keyboard shortcut for quick access
+6. Pin the extension or add a keyboard shortcut for quick access.
+
+## Links
+
+- Live Site URL: [drougnov.github.io/Px-to-rem-converter-extension](https://drougnov.github.io/Px-to-rem-converter-extension)
 
 ## Built with
 
