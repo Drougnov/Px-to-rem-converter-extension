@@ -17,6 +17,20 @@ The Px to Rem Converter is a simple and efficient Chrome extension that helps we
 - Convenient saving feature for frequently used presets.
 - Lightweight and fast.
 
+## Usage
+
+1. Download the extension by cloning or downloading the source code from your GitHub repository.
+
+2. Open Google Chrome and navigate to the Extensions page (chrome://extensions/).
+
+3. Enable Developer mode by clicking the toggle switch in the top right corner.
+
+4. Click the "Load Unpacked" button and select the folder where the extension was downloaded.
+
+5. The Px to Rem Converter Chrome Extension is now ready to use.
+
+6. Pin the extension or add a keyboard shortcut for quick access
+
 ## Built with
 
 -HTML
