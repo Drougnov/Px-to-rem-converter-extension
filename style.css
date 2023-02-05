@@ -1,4 +1,4 @@
-main{
+.container{
     width: 350px;
     display: grid;
     grid-template-columns: 1fr 65px 1fr;
@@ -6,13 +6,13 @@ main{
     gap: 1rem;
     margin-bottom: .5rem;
 }
-.input-container{
+.container__input{
     position: relative;
 }
-.input-container input{
+.container__input input{
     width: 100%;
 }
-.input-container span{
+.container__input span{
     position: absolute;
     right: 1rem;
     top: 0;
