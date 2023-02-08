@@ -1,6 +1,6 @@
 # PX to REM converter || Chrome extension
 
-![Design preview for px to rem converter](./screenshot.png)
+![Design preview for px to rem converter](./images/screenshot.png)
 
 ## Welcome! 👋
 
