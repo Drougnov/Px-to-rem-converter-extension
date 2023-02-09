@@ -6,6 +6,7 @@
     "author": "Rocky Barua",
     "action": {
         "default_popup": "index.html",
-        "default_title": "PX to REM converter"
+        "default_title": "PX to REM converter",
+        "default_icon": "./images/favicon.png"
     }
 }
